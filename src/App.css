@@ -9,3 +9,102 @@
 .student p{
   margin: 0;
 }
+
+.hookdemo {
+  text-align: center;
+}
+
+.counter-conatainer {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.counter-display {
+  font-size: 6em;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;  
+  border: none;
+  border-radius: 5px;
+  background-color:peachpuff;
+  cursor: pointer;
+}
+
+.handlerdemo-container {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* Todo App CSS */
+
+.todo-container {
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(131, 3, 131);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.todo-heading {
+  color: rgb(23, 44, 37);
+}
+
+.todo-input {
+  padding: 10px;
+  width: 400px;
+  border: 1px solid rgb(83, 6, 130);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.todo-button {
+  padding: 10px 15px;
+  background-color: rgb(107, 112, 107);
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.todo-button:hover {
+  background-color: rgb(50, 3, 50);
+}
+
+.todo-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(192, 234, 234);
+  border: 1px solid rgb(234, 206, 232);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.todo-delete {
+  cursor: pointer;
+  padding: 6px 10px;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+}
+
+.todo-delete:hover{
+  background-color: #c00;
+}
