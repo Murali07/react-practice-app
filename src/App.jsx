@@ -6,6 +6,7 @@
 // import List from "./List";
 
 import ToDo from "./ToDoApp/ToDo";
+import MyComponent from "./updateObjectUsingState/MyComponent";
 
 function App() {
   
@@ -39,7 +40,8 @@ function App() {
     {/* <HookDemo />     */}
     {/* <Counter /> */}
     {/* <HandlerDemo /> */}
-    <ToDo />
+    {/* <ToDo /> */}
+    <MyComponent />
 
     </>
   );
